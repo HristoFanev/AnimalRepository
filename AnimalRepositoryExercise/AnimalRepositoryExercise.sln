@@ -5,10 +5,12 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{2F98CD13-A79A-4BC8-B8E4-66C4B9D0ACFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectConsole", "ProjectConsole\ProjectConsole.csproj", "{8EF9E22E-B569-452E-893A-7C21D52B86ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectConsole", "ProjectConsole\ProjectConsole.csproj", "{8EF9E22E-B569-452E-893A-7C21D52B86ED}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2F98CD13-A79A-4BC8-B8E4-66C4B9D0ACFF} = {2F98CD13-A79A-4BC8-B8E4-66C4B9D0ACFF}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMVC", "ProjectMVC\ProjectMVC.csproj", "{DC262393-20AB-493C-9151-379262876FCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{8EF9E22E-B569-452E-893A-7C21D52B86ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EF9E22E-B569-452E-893A-7C21D52B86ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EF9E22E-B569-452E-893A-7C21D52B86ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC262393-20AB-493C-9151-379262876FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC262393-20AB-493C-9151-379262876FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC262393-20AB-493C-9151-379262876FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC262393-20AB-493C-9151-379262876FCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
